@@ -45,7 +45,9 @@ function App() {
           </div>
 
         <div className="row">
-          <Clearbutton>Reset</Clearbutton>
+          <Clearbutton manageClear={() =>setInput('')} >
+            Reset
+            </Clearbutton>
         </div>
       </div>
     </div>
