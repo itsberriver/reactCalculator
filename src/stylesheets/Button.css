@@ -6,7 +6,7 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #1b1b32;
+    background-color: #e5c4c5;
     color: white;
     border-radius: 25px;
     border: 2px solid white;
@@ -16,6 +16,6 @@
   }
   
   .buttons-container:hover {
-    background-color: #5a01a7;
+    background-color: #106c7d;
   }
   
