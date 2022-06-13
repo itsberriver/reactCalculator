@@ -40,7 +40,7 @@ function App() {
           <Button manageClick={addInput}> 7 </Button>
           <Button manageClick={addInput}> 8 </Button>
           <Button manageClick={addInput}> 9 </Button>
-          <Button manageClick={addInput}> x </Button>
+          <Button manageClick={addInput}> * </Button>
           </div>
 
         <div className="row">
