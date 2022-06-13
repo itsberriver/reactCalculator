@@ -3,12 +3,18 @@ import {useState} from 'react';
 import Button from './components/Button.jsx';
 import Screen from './components/Screen.jsx';
 import Clearbutton from './components/ClearButton.jsx';
+import {evaluate} from 'mathjs';
+
 
 function App() {
 
   const [input, setInput] = useState('');
   const addInput = value => {
-    setInput( input + value);
+    setInput( input + value );
+  }
+
+  const calculateResult = () => {
+    setInput(evaluate(input));
   }
 
   return (
@@ -38,9 +44,9 @@ function App() {
           </div>
 
         <div className="row">
-          <Button manageClick={addInput}> = </Button>
+          <Button manageClick={calculateResult}> = </Button>
           <Button manageClick={addInput}> 0 </Button>
-          <Button manageClick={addInput}> = </Button>
+          <Button manageClick={addInput}> . </Button>
           <Button manageClick={addInput}> / </Button>
           </div>
 
