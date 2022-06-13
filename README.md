@@ -9,12 +9,12 @@ This is an application developed with React, an interactive calculator that perf
 
 
 
-This application is part of one of the exercises created by[Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) for the course[Aprende React Desde Cero](https://www.youtube.com/watch?v=6Jfk8ic3KVk) published on the YouTube channel [freeCodeCamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol). 
+This application is part of one of the exercises created by [Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) for the course [Aprende React Desde Cero](https://www.youtube.com/watch?v=6Jfk8ic3KVk) published on the YouTube channel '[freeCodeCamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol)'. 
 
 ## Cloning repository
 If you want to see the project's code, you should first clone this repository, to do this, open the terminal in the file you want the project to be saved and run the following command:
 
-`$ [https://github.com/itsberriver/to-do-list-React.git](https://github.com/itsberriver/reactCalculator.git)`
+`$ https://github.com/itsberriver/reactCalculator.git`
 
 ## Installing Modules
 To install the necessary modules for the application, you must execute the command the following commands.
