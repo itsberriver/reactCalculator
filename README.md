@@ -16,6 +16,8 @@ If you want to see the project's code, you should first clone this repository, t
 
 `$ https://github.com/itsberriver/reactCalculator.git`
 
+But if you only want to see the project in use, you can see it [here](https://react-calculator-ll7ig40ns-itsberriver.vercel.app/)
+
 ## Installing Modules
 To install the necessary modules for the application, you must execute the command the following commands.
 
