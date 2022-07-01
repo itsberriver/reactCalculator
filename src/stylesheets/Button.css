@@ -6,13 +6,15 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #e5c4c5;
+    /* background-color: #D1F470; */
     color: white;
     border-radius: 25px;
     border: 2px solid white;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    border: 1px solid #FEF9F0;
+    box-shadow: 6px 6px 0px #000000;
   }
   
   .buttons-container:hover {
