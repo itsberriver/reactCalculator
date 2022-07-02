@@ -1,13 +1,26 @@
+body{
+  background: #4530A2;
+}
+
 .App {
-  height: 100vh;
-  padding-top: 10px;
   background: #4530A2;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  /* padding: 0.2rem; */
 }
 
+p{
+  font-size: 1.5em;
+  color: white;
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  padding: 3rem;
+}
 
 .container-calculator {
   width: 300px;
@@ -24,4 +37,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.footer-text{
+  font-size: 1rem;
+  font-weight: 100;
 }

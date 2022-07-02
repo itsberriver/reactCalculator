@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <p>Berriver's Calculator</p>
       <div className="container-calculator">
         <Screen input = { input } />
 
@@ -56,6 +57,7 @@ function App() {
             </Clearbutton>
         </div>
       </div>
+      <p className="footer-text"> Made by Jessica Berriver with React </p>
     </div>
   );
 }
