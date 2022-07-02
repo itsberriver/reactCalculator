@@ -6,6 +6,7 @@ body{
   background: #4530A2;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'IBM Plex Mono', monospace;
